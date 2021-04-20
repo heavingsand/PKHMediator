@@ -1,0 +1,6 @@
+framework module PKHMediator {
+  umbrella header "PKHMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

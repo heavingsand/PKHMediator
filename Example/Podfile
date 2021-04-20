@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PKHMediator_Example' do
+  pod 'PKHMediator', :path => '../'
+
+  target 'PKHMediator_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
