@@ -8,25 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1063F5707DB304C6695D0C9B269BE45D /* PKHMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A3A5F9DD5EB424790D305230CEC044 /* PKHMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
 		24FF26F37022CC6FF2783495785AB216 /* Pods-PKHMediator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB92C2F76D81A7E395D33060F58B0C8 /* Pods-PKHMediator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		332A8B13CF05EFAA07EFF4F95FD2F2D4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5684D9D87EEE7885BE68947EEA831A3A /* ReplaceMe.m */; };
+		30F16503DEFD68E737274687931CD744 /* PKHMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 876FC441FB9A3CBC9DF5521579CC02A1 /* PKHMediator-dummy.m */; };
+		36269195990D1BFB491CD50159554203 /* NSMutableArray+Safety.h in Headers */ = {isa = PBXBuildFile; fileRef = B9015520D2858BBC1D14E82562E69E22 /* NSMutableArray+Safety.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A6C6DADA44AD9E2AE7FE7B21E25DAB6 /* PKHMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7146A1B2EABB7461ADFCB6BEF75A83 /* PKHMediator.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4031D84DBC36E35340C470A2B3E6788D /* PKHMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F513BB3F9092872021D74BAD4A676F3 /* PKHMediator-dummy.m */; };
-		45D1941EFBAA9EB59D411D5926562DAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		43D86F49E05952811DEB75F8D93BD296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		591A6BE9339164FB50F383BBBE58EE87 /* Pods-PKHMediator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9C75FDE88F39EE12CF5324A81C4D67 /* Pods-PKHMediator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A8D4F0DB97777A82054D1C54CB975B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		7EC93CEBFD5E989BE244A94719BDEFD1 /* NSMutableArray+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = A824D8A6292290C0008F048C97B7D5DC /* NSMutableArray+Safety.m */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		AA3957388CC0EA42C197472C65026010 /* PKHMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8027B9848A24C9821EAA84EF46B87EB /* PKHMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFBB6CE35091467EB510732697A66542 /* Pods-PKHMediator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 849048F31EDC86BD64CE07A52B900973 /* Pods-PKHMediator_Example-dummy.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -34,6 +36,7 @@
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		E212B59588F728221DC6B33E8A4A4BA0 /* PKHMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = CA547EEDEE890846B5CCCD15AFD504BF /* PKHMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		EDB78BF5CB891746D48876653A5F74FA /* Pods-PKHMediator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 341699A30E65E0B2F47B0C88DA3A19BA /* Pods-PKHMediator_Tests-dummy.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -66,8 +69,10 @@
 
 /* Begin PBXFileReference section */
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		16F93A5E6432486AF8E0E37B09DCD5F6 /* PKHMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PKHMediator-Info.plist"; sourceTree = "<group>"; };
+		1A769ABE064E0D211162FD9065F74704 /* PKHMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PKHMediator.modulemap; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1F513BB3F9092872021D74BAD4A676F3 /* PKHMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKHMediator-dummy.m"; sourceTree = "<group>"; };
+		1C98038D65C7248EC205C138CDF5C957 /* PKHMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHMediator.debug.xcconfig; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		26D5092FAB5EFB8D9A062DBAF7292A51 /* Pods-PKHMediator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PKHMediator_Example-frameworks.sh"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
@@ -80,26 +85,27 @@
 		341699A30E65E0B2F47B0C88DA3A19BA /* Pods-PKHMediator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PKHMediator_Tests-dummy.m"; sourceTree = "<group>"; };
 		39117581E250E244B1A2D345087E9055 /* Pods-PKHMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PKHMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3988DFCB72CC61113E5EE3D6AEB395CA /* Pods-PKHMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PKHMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3B12C4C3E839337F09902BCCA4B4ADAF /* PKHMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PKHMediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D7146A1B2EABB7461ADFCB6BEF75A83 /* PKHMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PKHMediator.m; path = PKHMediator/Classes/PKHMediator.m; sourceTree = "<group>"; };
+		3D90F9091970D52847666DE4CED468E6 /* PKHMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PKHMediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		45ADD436B218E04D38A88F56191C7313 /* Pods-PKHMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PKHMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4754CDD40040D422152DB855C2D35D59 /* Pods_PKHMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PKHMediator_Example.framework; path = "Pods-PKHMediator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		554DDF2D4832AEAD6C4BA3881AA48830 /* PKHMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHMediator-prefix.pch"; sourceTree = "<group>"; };
 		55F7B92550134F6F10E74285B6419B6D /* Pods-PKHMediator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PKHMediator_Tests-Info.plist"; sourceTree = "<group>"; };
-		5684D9D87EEE7885BE68947EEA831A3A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PKHMediator/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		5AB92C2F76D81A7E395D33060F58B0C8 /* Pods-PKHMediator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PKHMediator_Example-umbrella.h"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		6E29CDA4019610ECA24565BB32AE9F6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		7423FA838C9C8FFB191C9A75D0FC5095 /* Pods-PKHMediator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PKHMediator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		76A3A5F9DD5EB424790D305230CEC044 /* PKHMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHMediator-umbrella.h"; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		8072B89A60C47D8BBBC725A09313440A /* PKHMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHMediator-prefix.pch"; sourceTree = "<group>"; };
 		849048F31EDC86BD64CE07A52B900973 /* Pods-PKHMediator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PKHMediator_Example-dummy.m"; sourceTree = "<group>"; };
+		876FC441FB9A3CBC9DF5521579CC02A1 /* PKHMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKHMediator-dummy.m"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8DED0896EC95244270DA6ED69BB82C09 /* Pods-PKHMediator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PKHMediator_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -109,33 +115,25 @@
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2D7BADBCD41680D930D9B375B657BE7 /* PKHMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHMediator.debug.xcconfig; sourceTree = "<group>"; };
-		A8027B9848A24C9821EAA84EF46B87EB /* PKHMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHMediator-umbrella.h"; sourceTree = "<group>"; };
+		A824D8A6292290C0008F048C97B7D5DC /* NSMutableArray+Safety.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safety.m"; sourceTree = "<group>"; };
 		AB468F41054FA0D44B7D03BAA612CE53 /* Pods-PKHMediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PKHMediator_Tests.modulemap"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B2DF2B03E1A1B7E2483DD889DF41EED9 /* Pods-PKHMediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PKHMediator_Example.modulemap"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		BE30994EB6831334346485FE894C07E6 /* PKHMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PKHMediator-Info.plist"; sourceTree = "<group>"; };
+		B787CFA33F5323EADACD6505B1908859 /* PKHMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHMediator.release.xcconfig; sourceTree = "<group>"; };
+		B9015520D2858BBC1D14E82562E69E22 /* NSMutableArray+Safety.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safety.h"; sourceTree = "<group>"; };
+		C33CB700626C1F8DC897EA60658E8965 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CA547EEDEE890846B5CCCD15AFD504BF /* PKHMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKHMediator.h; path = PKHMediator/Classes/PKHMediator.h; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D12EE3353599E98FD446251447D5BEE0 /* PKHMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHMediator.release.xcconfig; sourceTree = "<group>"; };
-		D46861DD88AC6D40058B05FCEA5AB2FA /* PKHMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PKHMediator.modulemap; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		E8C23B37D00D80CE26B00A3E4890DBDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		EE0711F32494C6C1C0E04AE0983FB4AF /* Pods-PKHMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PKHMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FE4FB49839FDCCE3490490301AE09237 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		FF52C7E305A572A34456A5606D7E72E7 /* Pods_PKHMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PKHMediator_Tests.framework; path = "Pods-PKHMediator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		001320F402565C786E48E6492D31EC16 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45D1941EFBAA9EB59D411D5926562DAD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		01DA4998CCC8FE22685D1236C5C42A80 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -163,24 +161,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFF57F9CBD97FD0B2C9C0EC747B33842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D86F49E05952811DEB75F8D93BD296 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		047EB04F38812DEAE7726077BA3F2F59 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D46861DD88AC6D40058B05FCEA5AB2FA /* PKHMediator.modulemap */,
-				1F513BB3F9092872021D74BAD4A676F3 /* PKHMediator-dummy.m */,
-				BE30994EB6831334346485FE894C07E6 /* PKHMediator-Info.plist */,
-				8072B89A60C47D8BBBC725A09313440A /* PKHMediator-prefix.pch */,
-				A8027B9848A24C9821EAA84EF46B87EB /* PKHMediator-umbrella.h */,
-				A2D7BADBCD41680D930D9B375B657BE7 /* PKHMediator.debug.xcconfig */,
-				D12EE3353599E98FD446251447D5BEE0 /* PKHMediator.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PKHMediator";
-			sourceTree = "<group>";
-		};
 		33B2423D127466B4A3F50D252E2B145C /* Pods-PKHMediator_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,24 +221,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		555DE5C9F13A5846AF3FAE26C156012B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6E29CDA4019610ECA24565BB32AE9F6C /* LICENSE */,
-				3B12C4C3E839337F09902BCCA4B4ADAF /* PKHMediator.podspec */,
-				FE4FB49839FDCCE3490490301AE09237 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		66BD8280D2431B2AA4D351BA7500DF92 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EE7FCE394A3B2383CCEF640FE2BFFDA9 /* PKHMediator */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +230,26 @@
 				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		838D0ACECCD059707CF3ED501CA213BC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E8C23B37D00D80CE26B00A3E4890DBDE /* LICENSE */,
+				3D90F9091970D52847666DE4CED468E6 /* PKHMediator.podspec */,
+				C33CB700626C1F8DC897EA60658E8965 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8A3E4F26488CC3DE1762A1EF2893EBA2 /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				B9015520D2858BBC1D14E82562E69E22 /* NSMutableArray+Safety.h */,
+				A824D8A6292290C0008F048C97B7D5DC /* NSMutableArray+Safety.m */,
+			);
+			name = Categary;
+			path = PKHMediator/Classes/Categary;
 			sourceTree = "<group>";
 		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
@@ -305,7 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				66BD8280D2431B2AA4D351BA7500DF92 /* Development Pods */,
+				E32E4FCC0AA046FA544496499E4693FD /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				4D6A818B1CC88824CD4A0EC39F002E16 /* Products */,
@@ -322,6 +315,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E32E4FCC0AA046FA544496499E4693FD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBBEDC3181BB4505D4EB5838278D59C0 /* PKHMediator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,15 +331,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		EE7FCE394A3B2383CCEF640FE2BFFDA9 /* PKHMediator */ = {
+		F2489DF0E091A15227E9AB21AAE6568C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5684D9D87EEE7885BE68947EEA831A3A /* ReplaceMe.m */,
-				555DE5C9F13A5846AF3FAE26C156012B /* Pod */,
-				047EB04F38812DEAE7726077BA3F2F59 /* Support Files */,
+				1A769ABE064E0D211162FD9065F74704 /* PKHMediator.modulemap */,
+				876FC441FB9A3CBC9DF5521579CC02A1 /* PKHMediator-dummy.m */,
+				16F93A5E6432486AF8E0E37B09DCD5F6 /* PKHMediator-Info.plist */,
+				554DDF2D4832AEAD6C4BA3881AA48830 /* PKHMediator-prefix.pch */,
+				76A3A5F9DD5EB424790D305230CEC044 /* PKHMediator-umbrella.h */,
+				1C98038D65C7248EC205C138CDF5C957 /* PKHMediator.debug.xcconfig */,
+				B787CFA33F5323EADACD6505B1908859 /* PKHMediator.release.xcconfig */,
 			);
-			name = PKHMediator;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PKHMediator";
 			sourceTree = "<group>";
 		};
 		F9798D4808A44E75C0A2D3AAFD263EDB /* Pods-PKHMediator_Example */ = {
@@ -356,6 +361,19 @@
 			);
 			name = "Pods-PKHMediator_Example";
 			path = "Target Support Files/Pods-PKHMediator_Example";
+			sourceTree = "<group>";
+		};
+		FBBEDC3181BB4505D4EB5838278D59C0 /* PKHMediator */ = {
+			isa = PBXGroup;
+			children = (
+				CA547EEDEE890846B5CCCD15AFD504BF /* PKHMediator.h */,
+				3D7146A1B2EABB7461ADFCB6BEF75A83 /* PKHMediator.m */,
+				8A3E4F26488CC3DE1762A1EF2893EBA2 /* Categary */,
+				838D0ACECCD059707CF3ED501CA213BC /* Pod */,
+				F2489DF0E091A15227E9AB21AAE6568C /* Support Files */,
+			);
+			name = PKHMediator;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,11 +402,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6D5EA28D54A67717EAFF2EF158F182D /* Headers */ = {
+		B6C9E072A66CAB77DFB798FB3570FFB4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA3957388CC0EA42C197472C65026010 /* PKHMediator-umbrella.h in Headers */,
+				36269195990D1BFB491CD50159554203 /* NSMutableArray+Safety.h in Headers */,
+				1063F5707DB304C6695D0C9B269BE45D /* PKHMediator-umbrella.h in Headers */,
+				E212B59588F728221DC6B33E8A4A4BA0 /* PKHMediator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,12 +444,12 @@
 		};
 		211F94817752BD3CF5C1945E211F8A9C /* PKHMediator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22B256F0AA1B437E1C738AD4D4E13061 /* Build configuration list for PBXNativeTarget "PKHMediator" */;
+			buildConfigurationList = 25A78EDD1A807BBDE56EF93873A90270 /* Build configuration list for PBXNativeTarget "PKHMediator" */;
 			buildPhases = (
-				C6D5EA28D54A67717EAFF2EF158F182D /* Headers */,
-				96101F8E441014BD1BCC10B4104D33BE /* Sources */,
-				001320F402565C786E48E6492D31EC16 /* Frameworks */,
-				6DD9E86752E3A1A12C62E895D7AD6760 /* Resources */,
+				B6C9E072A66CAB77DFB798FB3570FFB4 /* Headers */,
+				9A2E5980D5784BA55DA3C2BF6BF23D83 /* Sources */,
+				EFF57F9CBD97FD0B2C9C0EC747B33842 /* Frameworks */,
+				52191584E4F9C282E5ABB50AAD14D647 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -509,6 +529,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		52191584E4F9C282E5ABB50AAD14D647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -517,13 +544,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6977D4A5AE4147F49C11D41D6AEC4F41 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6DD9E86752E3A1A12C62E895D7AD6760 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -548,12 +568,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96101F8E441014BD1BCC10B4104D33BE /* Sources */ = {
+		9A2E5980D5784BA55DA3C2BF6BF23D83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4031D84DBC36E35340C470A2B3E6788D /* PKHMediator-dummy.m in Sources */,
-				332A8B13CF05EFAA07EFF4F95FD2F2D4 /* ReplaceMe.m in Sources */,
+				7EC93CEBFD5E989BE244A94719BDEFD1 /* NSMutableArray+Safety.m in Sources */,
+				30F16503DEFD68E737274687931CD744 /* PKHMediator-dummy.m in Sources */,
+				3A6C6DADA44AD9E2AE7FE7B21E25DAB6 /* PKHMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,6 +653,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		237DF13AA57B8FF7B4CE82F91980F5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B787CFA33F5323EADACD6505B1908859 /* PKHMediator.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHMediator/PKHMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHMediator/PKHMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PKHMediator/PKHMediator.modulemap";
+				PRODUCT_MODULE_NAME = PKHMediator;
+				PRODUCT_NAME = PKHMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -730,38 +783,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7EDCEA662493766A118854B99D81199A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D12EE3353599E98FD446251447D5BEE0 /* PKHMediator.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PKHMediator/PKHMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PKHMediator/PKHMediator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PKHMediator/PKHMediator.modulemap";
-				PRODUCT_MODULE_NAME = PKHMediator;
-				PRODUCT_NAME = PKHMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -893,9 +914,9 @@
 			};
 			name = Debug;
 		};
-		A936EADDB3FB11C8F037C6F36F8F9B10 /* Debug */ = {
+		A339B6C726B9374A2440939465B2BC56 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2D7BADBCD41680D930D9B375B657BE7 /* PKHMediator.debug.xcconfig */;
+			baseConfigurationReference = 1C98038D65C7248EC205C138CDF5C957 /* PKHMediator.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -992,11 +1013,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22B256F0AA1B437E1C738AD4D4E13061 /* Build configuration list for PBXNativeTarget "PKHMediator" */ = {
+		25A78EDD1A807BBDE56EF93873A90270 /* Build configuration list for PBXNativeTarget "PKHMediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A936EADDB3FB11C8F037C6F36F8F9B10 /* Debug */,
-				7EDCEA662493766A118854B99D81199A /* Release */,
+				A339B6C726B9374A2440939465B2BC56 /* Debug */,
+				237DF13AA57B8FF7B4CE82F91980F5B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

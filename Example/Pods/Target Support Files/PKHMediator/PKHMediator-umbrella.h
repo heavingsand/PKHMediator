@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "NSMutableArray+Safety.h"
+#import "PKHMediator.h"
 
 FOUNDATION_EXPORT double PKHMediatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char PKHMediatorVersionString[];

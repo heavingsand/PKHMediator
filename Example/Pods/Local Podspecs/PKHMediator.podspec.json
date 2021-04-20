@@ -1,18 +1,18 @@
 {
   "name": "PKHMediator",
   "version": "0.1.0",
-  "summary": "A short description of PKHMediator.",
+  "summary": "用于解耦模块间通讯",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/943147350@qq.com/PKHMediator",
+  "homepage": "https://github.com/heavingsand/PKHMediator",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "943147350@qq.com": "aa943147350@163.com"
+    "heavingsand": "aa943147350@163.com"
   },
   "source": {
-    "git": "https://github.com/943147350@qq.com/PKHMediator.git",
+    "git": "https://github.com/heavingsand/PKHMediator.git",
     "tag": "0.1.0"
   },
   "platforms": {
