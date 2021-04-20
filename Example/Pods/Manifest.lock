@@ -4,9 +4,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - PKHMediator (0.1.4):
-    - PKHMediator/Categary (= 0.1.4)
-  - PKHMediator/Categary (0.1.4)
+  - PKHMediator (0.1.5):
+    - PKHMediator/Categary (= 0.1.5)
+  - PKHMediator/Categary (0.1.5)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  PKHMediator: 1843d95d8b890ad30d63fcc33cf855e9560e1e5f
+  PKHMediator: de6c187e657a54e3aa45e8ec86eb52f68d040e86
 
 PODFILE CHECKSUM: 859d0ea105b3fb37e6bbe6056d89d0604371fff3
 

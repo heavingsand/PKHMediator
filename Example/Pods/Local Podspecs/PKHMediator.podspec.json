@@ -1,6 +1,6 @@
 {
   "name": "PKHMediator",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "用于解耦模块间通讯",
   "description": "用于解耦模块间通讯",
   "homepage": "https://github.com/heavingsand/PKHMediator",
@@ -13,16 +13,16 @@
   },
   "source": {
     "git": "https://github.com/heavingsand/PKHMediator.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "PKHMediator/Classes/**/*",
+  "source_files": "PKHMediator/Classes/*",
   "subspecs": [
     {
       "name": "Categary",
-      "source_files": "PKHMediator/Classes/Categary/**/*"
+      "source_files": "PKHMediator/Classes/Categary/*"
     }
   ]
 }
