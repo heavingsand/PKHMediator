@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PKHMediator'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = '用于解耦模块间通讯'
 
 # This description is used to generate tags and improve search results.
@@ -28,9 +28,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'PKHMediator/Classes/*.{h.m}'
+  s.source_files = 'PKHMediator/Classes/**/*'
   s.subspec 'Categary' do |ss|
-    ss.source_files = 'PKHMediator/Classes/Categary/*.{h.m}'
+    ss.source_files = 'PKHMediator/Classes/Categary/**/*'
   end
   
   # s.resource_bundles = {
