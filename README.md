@@ -1,9 +1,12 @@
 # PKHMediator
 
-[![CI Status](https://img.shields.io/travis/943147350@qq.com/PKHMediator.svg?style=flat)](https://travis-ci.org/943147350@qq.com/PKHMediator)
-[![Version](https://img.shields.io/cocoapods/v/PKHMediator.svg?style=flat)](https://cocoapods.org/pods/PKHMediator)
-[![License](https://img.shields.io/cocoapods/l/PKHMediator.svg?style=flat)](https://cocoapods.org/pods/PKHMediator)
-[![Platform](https://img.shields.io/cocoapods/p/PKHMediator.svg?style=flat)](https://cocoapods.org/pods/PKHMediator)
+[![Platform](https://img.shields.io/badge/platform-iOS-red.svg)](https://github.com/heavingsand/PKHMediator)
+[![Language](https://img.shields.io/badge/language-ObjectC-orange.svg)](https://github.com/heavingsand/PKHMediator)
+[![Version](https://img.shields.io/badge/version-1.0.2-brightgreen.svg)](https://github.com/heavingsand/PKHMediator)
+
+## 项目简介
+
+用于解耦模块间通讯
 
 ## Example
 
@@ -22,7 +25,7 @@ pod 'PKHMediator'
 
 ## Author
 
-943147350@qq.com, aa943147350@163.com
+Heavingsand, aa943147350@163.com
 
 ## License
 

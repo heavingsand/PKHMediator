@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'PKHMediator/Classes/**/*'
+  s.source_files = 'PKHMediator/Classes/*.{h.m}'
   s.subspec 'Categary' do |ss|
     ss.source_files = 'PKHMediator/Classes/Categary/*.{h.m}'
   end
