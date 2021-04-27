@@ -1,7 +1,7 @@
 # PKHMediator
 
 [![Platform](https://img.shields.io/badge/platform-iOS-red.svg)](https://github.com/heavingsand/PKHMediator)
-[![Language](https://img.shields.io/badge/language-ObjectC-orange.svg)](https://github.com/heavingsand/PKHMediator)
+[![Language](https://img.shields.io/badge/language-ObjectC-blue.svg)](https://github.com/heavingsand/PKHMediator)
 [![Version](https://img.shields.io/badge/version-1.0.2-brightgreen.svg)](https://github.com/heavingsand/PKHMediator)
 
 ## 项目简介
